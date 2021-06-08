@@ -19,7 +19,7 @@ body{
     align-items: center;
     justify-content: flex-start;
     border-radius: 24px;
-    border-color: #dfe1e5;;
+    border-color: #dfe1e5;
     border-style: solid;
     border-width: 1px;
     background-color: white;
@@ -47,3 +47,40 @@ body{
     font-family: arial, sans-serif;
     color: rgba(0,0,0,.87);
 }
+
+.search-buttons{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    padding-top: 18px;
+}
+
+.search-btn{
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0px 16px;
+    line-height: 27px;
+    height: 36px;
+    text-align: center;
+    cursor: pointer;
+    min-width: 54px;
+}
+
+.search-btn:hover{
+    border-color: #dfe1e5;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    color:black;
+}
+
+.search-btn:focus{
+    border-color:cornflowerblue;
+}
+
+
