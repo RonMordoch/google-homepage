@@ -1,5 +1,8 @@
 
+body{
+    color: black;
 
+}
 
 /* Navigation bar */
 
@@ -20,6 +23,11 @@
     opacity: 0.5;
     border: none;
     cursor: pointer;
+    margin: 0 15px;
+}
+
+.btn-apps:hover{
+    /* TODO */
 }
 
 .btn-sign-in{
@@ -42,7 +50,7 @@
     color:rgba(0,0,0,0.87);
     font-family: arial, sans-serif;
     font-size: 13px;
-    margin-right: 10px;
+    padding-right: 15px;
     text-decoration: none; /* remove the default underline */
 }
 
@@ -63,6 +71,7 @@
     width: 272px;
     height: 92px;
     margin-bottom: 1.5em;
+    margin-top: 11em;
 }
 
 .search-bar {
@@ -139,5 +148,34 @@ box-shadow: 0 1px 6px rgba(32,33,36,.28);
 .btn-search:focus{
     border-color:cornflowerblue;
 }
+
+/* Footer */
+
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f2f2f2;
+    padding:15px 0px;
+}
+
+.footer-link{
+    text-decoration: none;
+    font-size: 14px;
+    font-family: arial, sans-serif;
+    color: #70757a;
+    padding: 15px;
+}
+
+.footer-link:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
 
 
